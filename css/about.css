@@ -1,0 +1,38 @@
+.banner {
+  padding-top: 51px;
+}
+.banner img {
+  width: 100%;
+}
+section .container {
+  padding: 150px 0;
+}
+section h2 {
+  margin-bottom: 59px;
+  text-align: center;
+  color: #ec0044;
+}
+section p {
+  color: #34414a;
+  font-size: 16px;
+  line-height: 3rem;
+  text-indent: 3rem;
+}
+@media screen and (max-width: 768px) {
+  section .container {
+    padding: 30px 0 0;
+  }
+  section h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  section p {
+    padding: 5% !important;
+    font-size: 12px;
+  }
+}
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+}

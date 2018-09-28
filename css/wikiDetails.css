@@ -1,0 +1,117 @@
+section{
+    padding-bottom: 60px;
+}
+section .navTitle,
+section a,
+section .deta {
+  color: #858d95;
+  font-size: 14px;
+}
+section a {
+  padding: 0 8px;
+}
+section a.active,
+section a.active:hover,
+section h1 {
+  color: #ec0044;
+}
+section a:hover {
+  text-decoration: none;
+  color: #858d95;
+}
+section .img {
+  margin: 50px 0;
+  text-align: center;
+}
+section .img img {
+  height: 100%;
+  max-width: 100%;
+}
+section p,
+section li {
+  color: #556270;
+  font-size: 16px;
+  line-height: 2.5rem;
+}
+section h3 {
+  color: #ec0044;
+  margin: 50px 0;
+}
+section td,
+section th {
+  border: solid #dcdcdc;
+  border-width: 0px 1px 1px 0px;
+  padding: 10px 22px;
+}
+section table {
+  margin: 50px 0;
+  border: solid #dcdcdc;
+  border-width: 1px 0px 0px 1px;
+  color: #34414A;
+}
+section h4 {
+    margin: 36px 0 10px;
+    font-size: 20px;
+}
+section h5 {
+    margin: 24px 0 10px;
+    font-size: 18px;
+}
+section .span-red li {
+    margin-bottom: 20px;
+    color: #ec0044;
+}
+section .span-red li span {
+    color: #556270;
+}
+section .sec {
+    padding-left: 24px;
+}
+.mobile-hide th {
+  text-align: center;
+  color: #ec0044;
+  background-color: #F6F6F6;
+}
+
+@media screen and (max-width: 768px){
+  section .navTitle{
+    display: none;
+  }
+  section h1 {
+    font-size: 24px;
+  }
+  section .deta {
+    font-size: 10px;
+  }
+  section .img {
+    margin: 25px 0;
+  }
+  section .img img {
+    height: auto;
+  }
+  section p, section li {
+    font-size: 12px;
+  }
+  section h3 {
+    margin: 25px 0;
+    font-size: 20px;
+  }
+  section h4 {
+    margin: 20px 0 10px;
+    font-size: 16px;
+  }
+  section h5 { 
+    margin: 15px 0 10px;
+    font-size: 14px;
+  }
+  section .span-red li {
+    margin-bottom: 10px;
+    line-height: 2rem;
+  }
+  section td, section th {
+    padding: 10px;
+  }
+  section table {
+    margin: 10px 0;
+  }
+}

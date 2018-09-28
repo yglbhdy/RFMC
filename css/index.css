@@ -1,0 +1,125 @@
+header {
+    padding-top: 51px;
+}
+header img {
+    width: 100%;
+}
+section h2 {
+    margin: 0 0 120px 0;
+    text-align: center;
+    color: #EC0044;
+}
+section h3 {
+    margin: 113px 0 59px 0;
+    color: #EC0044;
+}
+
+/* on-going-projects */
+.on-going-projects  {
+    padding-top: 152px;
+}
+.on-going-projects .pro-slide {
+    margin-bottom: 242px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.on-going-projects .pro-slide p {
+    margin: 0 0 30px 0;
+}
+.on-going-projects .pro-slide a {
+    color: #EC0044;
+    display: block;
+}
+.on-going-projects .pro-slide img {
+    max-width: 100%;
+}
+.on-going-projects .CI-theme-ROSY h3 {
+    margin-top: 0;
+}
+
+/* highlight */
+.highlight .highlight-slide {
+    padding: 0 5%;
+    margin-bottom: 55px;
+}
+.highlight .highlight-slide div {
+    padding-left: 12%;
+    font-size: 16px;
+    color: #34414a;
+    background-repeat: no-repeat;
+    background-position: top left;
+    position: relative;
+    top: 50%;
+    background-size: 10%;
+}
+.highlight .highlight-slide h3 {
+    margin: 0 0 10px;
+}
+
+@media screen and (max-width: 768px){
+    .row {
+        width: 100%;
+        margin: 0;
+    }
+    .on-going-projects {
+        padding: 0;
+    }
+    section h3 {
+        margin-top: 71px;
+    }
+    .on-going-projects .pro-slide {
+        margin-bottom: 94px;
+    }
+    .on-going-projects .pro-slide p {
+        margin-bottom: 16px;
+    }
+    .on-going-projects .pro-slide a {
+        margin: 26px 0 34px;
+        display: inline-block;
+        background-color: #EC0044;
+        color: #fff;
+        padding: 8px;
+    }
+    .on-going-projects .pro-slide .img {
+        background-color: #ECEBEB;
+        text-align: center;
+        padding: 15px 0;
+        width: 100%;
+    }
+    .on-going-projects .pro-slide img {
+        width: 50%;
+    }
+    .on-going-projects .CI-theme-ROSY .img {
+        background-color: transparent;
+    }
+    .on-going-projects .CI-theme-ROSY .img img {
+        width: 100%;
+    }
+    .on-going-projects .CI-theme-ROSY h3 {
+        margin-top: 56px;
+    }
+    .on-going-projects .CI-theme-ROSY a {
+        float: right;
+    }
+    .on-going-projects .shell {
+        background-color: #ECEBEB;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .on-going-projects .shell .img {
+        padding: 15px;
+    }
+    .on-going-projects .shell .img img {
+        width: 100%;
+    }
+    section h2 {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .highlight .highlight-slide div {
+        font-size: 14px;
+    }
+    .highlight .highlight-slide h3 {
+        font-size: 18px;
+    }
+}
