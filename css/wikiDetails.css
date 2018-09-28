@@ -1,9 +1,9 @@
-section{
-    padding-bottom: 60px;
+section {
+  padding-bottom: 60px;
 }
+section .deta,
 section .navTitle,
-section a,
-section .deta {
+section a {
   color: #858d95;
   font-size: 14px;
 }
@@ -27,8 +27,8 @@ section .img img {
   height: 100%;
   max-width: 100%;
 }
-section p,
-section li {
+section li,
+section p {
   color: #556270;
   font-size: 16px;
   line-height: 2.5rem;
@@ -40,41 +40,45 @@ section h3 {
 section td,
 section th {
   border: solid #dcdcdc;
-  border-width: 0px 1px 1px 0px;
+  border-width: 0 1px 1px 0;
   padding: 10px 22px;
 }
 section table {
   margin: 50px 0;
   border: solid #dcdcdc;
-  border-width: 1px 0px 0px 1px;
-  color: #34414A;
+  border-width: 1px 0 0 1px;
+  color: #34414a;
 }
 section h4 {
-    margin: 36px 0 10px;
-    font-size: 20px;
+  margin: 36px 0 10px;
+  font-size: 20px;
 }
 section h5 {
-    margin: 24px 0 10px;
-    font-size: 18px;
+  margin: 24px 0 10px;
+  font-size: 18px;
 }
 section .span-red li {
-    margin-bottom: 20px;
-    color: #ec0044;
+  margin-bottom: 20px;
+  color: #ec0044;
 }
 section .span-red li span {
-    color: #556270;
+  color: #556270;
 }
 section .sec {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 .mobile-hide th {
   text-align: center;
   color: #ec0044;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
-
-@media screen and (max-width: 768px){
-  section .navTitle{
+.sec .span-red li span a {
+    color: #337ab7;
+    text-decoration: underline;
+    font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  section .navTitle {
     display: none;
   }
   section h1 {
@@ -89,7 +93,8 @@ section .sec {
   section .img img {
     height: auto;
   }
-  section p, section li {
+  section li,
+  section p {
     font-size: 12px;
   }
   section h3 {
@@ -100,7 +105,7 @@ section .sec {
     margin: 20px 0 10px;
     font-size: 16px;
   }
-  section h5 { 
+  section h5 {
     margin: 15px 0 10px;
     font-size: 14px;
   }
@@ -108,10 +113,12 @@ section .sec {
     margin-bottom: 10px;
     line-height: 2rem;
   }
-  section td, section th {
+  section td,
+  section th {
     padding: 10px;
   }
   section table {
     margin: 10px 0;
   }
 }
+
