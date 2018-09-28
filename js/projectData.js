@@ -160,7 +160,7 @@ var proData = [
                     <h3>Gigabit Ethernet Ports</h3>
                     <h3>USB Type C Support</h3>
                     <h3>Compatible with Third Party Firmware</h3>
-                    <a href="" target="_blank">BUY NOW >></a>
+                    <a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-18648655987.14.3e121bcczkBBN3&id=578438730439&qq-pf-to=pcqq.c2c" target="_blank">BUY NOW >></a>
                 </div>
             </div>
         </div>
@@ -396,7 +396,7 @@ var proData = [
                     <h3>全千兆以太网</h3>
                     <h3>支持USB Type C</h3>
                     <h3>兼容第三方固件</h3>
-                    <a href="" target="_blank">立即购买 >></a>
+                    <a href="https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-18648655987.14.3e121bcczkBBN3&id=578438730439&qq-pf-to=pcqq.c2c" target="_blank">立即购买 >></a>
                 </div>
             </div>
         </div>
