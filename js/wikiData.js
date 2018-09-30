@@ -228,7 +228,7 @@ var blog = [
                   <li><span>Our team has customized a set of luci theme: luci-theme-rosy, if you want to know or download, <a href="https://github.com/rosywrt/luci-theme-rosy" target="_blank">please click here</a></span></li>
               </div>
               <h5>Packages Source Code</h5>
-              <p>We developed a packages named nft-qos which support static QoS, dynamic QoS, stream shaping that convenient to the people who like games. If you want to known more about packages, visit here, source code can be download here.</p>
+              <p>We developed a packages named nft-qos which support static QoS, dynamic QoS, stream shaping that convenient to the people who like games. If you want to known more about packages, visit here, <a href="https://github.com/rosywrt/packages">source code can be download here.</a></p>
           </div>
           <h3>Matters needing attention</h3>
           <h4>Extensible Antenna</h4>
